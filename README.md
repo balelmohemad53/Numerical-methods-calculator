@@ -1,35 +1,44 @@
-# 🧮 Numerical Methods Calculator (NumeriX)
+ # 🧮 Numerical Methods Calculator (NumeriX)
 
-An interactive application built with **Flutter** for solving mathematical and numerical analysis problems. 
+An interactive Web and Desktop Application built using **Flutter** to perform numerical analysis calculations and solve complex mathematical models step-by-step.
 
-> **Academic Project:** Developed for the Numerical Analysis coursework at the **Faculty of Artificial Intelligence, Horus University**.
+> 🎓 **Academic Context:** Developed as a coursework project for the **Numerical Analysis** module at the **Faculty of Artificial Intelligence, Horus University**.
 
 ---
 
 ## 🚀 Live Demo
-* **Web Deployment:** [NumeriX Live App](https://numerix-calculator.netlify.app) *(ضع رابط Netlify الخاص بك هنا)*
+* **Web App Link:** [NumeriX Live App](https://numerix-calculator.netlify.app)
 
 ---
 
-## ✨ Supported Numerical Methods
+## ✨ Key Features & Implemented Algorithms
 
-### 1. Root-Finding Algorithms
+### 1. Non-Linear Equations (Root Finding)
 * Bisection Method
 * False Position (Regula Falsi)
 * Newton-Raphson Method
 * Secant Method
 
-### 2. Linear Systems & Matrix Operations
-* Gauss Elimination & Gauss-Jordan
-* LU Decomposition
-* Jacobi & Gauss-Seidel Iterative Methods
+### 2. Systems of Linear Algebraic Equations
+* Direct Methods: *Gauss Elimination*, *Gauss-Jordan Elimination*, *LU Decomposition*
+* Iterative Methods: *Jacobi Method*, *Gauss-Seidel Method*
 
-### 3. Numerical Integration & Differentiation
+### 3. Interpolation & Approximation
+* Lagrange Interpolation
+* Newton's Divided Difference
+
+### 4. Numerical Integration
 * Trapezoidal Rule
-* Simpson's 1/3 & 3/8 Rules
+* Simpson's 1/3 Rule & Simpson's 3/8 Rule
 
 ---
 
-## 🛠️ Built With
-* **Framework:** Flutter (Dart)
-* **Deployment:** Netlify
+## 🛠️ Tech Stack & Deployment
+* **Framework:** Flutter Web & Desktop
+* **Language:** Dart
+* **Hosting Platform:** Netlify
+
+ 
+
+# Run the app
+flutter run
